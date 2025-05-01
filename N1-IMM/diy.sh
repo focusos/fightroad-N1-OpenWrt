@@ -10,7 +10,7 @@ function git_sparse_clone() {
 }
 
 # Default IP
-sed -i 's/192.168.1.1/192.168.20.2/g' package/base-files/files/bin/config_generate
+sed -i 's/192.168.1.1/10.10.10.2/g' package/base-files/files/bin/config_generate
 
 
 # Add packages
